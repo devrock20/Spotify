@@ -21,7 +21,7 @@ How has Covid-19 changed the taste in music for spotify useres across different 
 2. We could predict the top genres across different countries given the future scenario in terms of change in Covid-19 cases.
 3. Identifying the taste in music after Covid-19 is over and comparing to the taste in music before and during Covid-19.
 
-#### Contributing Project Members
+## Contributing Project Members
 
 |Team 2| 
 |---------|
