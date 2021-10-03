@@ -10,8 +10,8 @@ Since the Covid-19 pandemic has afftecd people lives in many ways, one of the th
 How has Covid-19 changed the taste in music for spotify useres across different countries.
 
 ## Data and Source Description 
-  1)https://spotifycharts.com/regional : To get the top charts from different regions.<br/>
-  2)https://api.spotify.com : To get different paramaters of the songs through the api.<br/>
+  1)https://spotifycharts.com/regional : To get the top charts from different regions from previous weeks before and after the Covid-19 pandemic.<br/>
+  2)https://api.spotify.com : To get different features of the songs, such as genre and audio features, through the api.<br/>
   3)https://www.kaggle.com/theoverman/the-spotify-hit-predictor-dataset?select=dataset-of-00s.csv : A dataset of all the songs from the year 2000 to the year 2019.<br/>
   4)Covid-19 data : We are still in search of the dataset.
 
