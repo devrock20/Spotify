@@ -3,7 +3,7 @@ This project is part of the Knowledge Discovery in Databases (ITCS - 6162) cours
 
 #### -- Project Status: [Pending]
 
-## Introduction to Domain
+## Introduction to Problem
 Since the Covid-19 pandemic has afftecd people lives in many ways, one of the things that might have afftected is taste in music. There are many factors that affect taste in music like dancebility,intenstiy etc. Our aim for this project is to analyze those factors and merge this analysis with covid dataset to identify how taste in music has changed.
 
 ## Research Question
