@@ -4,10 +4,10 @@ This project is part of the Knowledge Discovery in Databases (ITCS - 6162) cours
 #### -- Project Status: [Pending]
 
 ## Introduction to Problem
-Since the Covid-19 pandemic has afftecd people lives in many ways, one of the things that might have afftected is taste in music. There are many factors that affect taste in music like dancebility,intenstiy etc. Our aim for this project is to analyze those factors and merge this analysis with covid dataset to identify how taste in music has changed.
+Since the Covid-19 pandemic has afftecd people lives in many ways, one of the things that might have afftected is preference in music. There are many factors that affect preference in music like dancebility, intenstiy etc. Our aim for this project is to analyze those factors and merge this analysis with covid dataset to identify how preference in music has changed.
 
 ## Research Question
-How has Covid-19 changed the taste in music for spotify useres across different countries.
+How has Covid-19 changed the preference in music for spotify users across different countries.
 
 ## Data and Source Description 
   1)https://spotifycharts.com/regional : To get the top charts from different regions from previous weeks before and after the Covid-19 pandemic.<br/>
@@ -17,9 +17,9 @@ How has Covid-19 changed the taste in music for spotify useres across different 
 
   
 ## Future Work:
-1. We can extend the work to "How different phases of lockdown affected the taste in music".
+1. We can extend the work to "How different phases of lockdown affected the preference in music".
 2. We could predict the top genres across different countries given the future scenario in terms of change in Covid-19 cases.
-3. Identifying the taste in music after Covid-19 is over and comparing to the taste in music before and during Covid-19.
+3. Identifying the preference in music after Covid-19 is over and comparing to the preference in music before and during Covid-19.
 
 ## Contributing Project Members
 
