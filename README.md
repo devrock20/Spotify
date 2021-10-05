@@ -4,10 +4,10 @@ This project is part of the Knowledge Discovery in Databases (ITCS - 6162) cours
 #### -- Project Status: [Pending]
 
 ## Introduction to Problem
-Since the Covid-19 pandemic has afftecd people lives in many ways, one of the things that might have afftected is preference in music. There are many factors that affect preference in music like dancebility, intenstiy etc. Our aim for this project is to analyze those factors and merge this analysis with covid dataset to identify how preference in music has changed.
+Since the Covid-19 pandemic has affected people lives in many ways, one of the things that might have affected is preference in music. There are many factors that affect preference in music like danceability, intensity etc. Our aim for this project is to analyze those factors and merge this analysis with covid dataset to identify how preference in music has changed.
 
 ## Research Question
-How has Covid-19 changed the preference in music for spotify users across different countries.
+How has Covid-19 changed the preference in music for Spotify users across different countries.
 
 ## Data and Source Description 
   1)https://spotifycharts.com/regional : To get the top charts from different regions from previous weeks before and after the Covid-19 pandemic.<br/>
