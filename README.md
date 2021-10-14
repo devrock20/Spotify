@@ -12,7 +12,7 @@ How has Covid-19 affected Spotify users' preference in music across top genres a
 ## Data and Source Description 
   Sno. | Source | Data and Source Description
   :---: | :----: | :------------------------
-  1\. | [Spotify Charts](https://spotifycharts.com/regional) | To get the top charts from different regions from previous weeks before and after the Covid-19 pandemic
+  1\. | [Spotify Charts](https://spotifycharts.com/regional) | To get the weekly top charts for the United States
   2\. | [Spotify API](https://api.spotify.com) | To get different features of the songs, such as genre and audio features, through the API
   3\. | [Spotify Dataset - Kaggle](https://www.kaggle.com/theoverman/the-spotify-hit-predictor-dataset?select=dataset-of-00s.csv) | A dataset of all the songs from the year 2000 to the year 2019
   4\. | [Covid-19 Dataset](https://covid19-lake.s3.amazonaws.com/index.html) | Public Covid-19 dataset hosted by AWS
