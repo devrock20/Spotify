@@ -11,7 +11,7 @@ How has Covid-19 positive cases impacted individuals preference in music across 
 
 ## Data and Source Description 
 Sno. | Source | Data and Source Description
----- | ------------ | ---------------------------
+:---: | :----: | :------------------------
 1\. | [Spotify Charts](https://spotifycharts.com/regional) | To get the top charts from different regions from previous weeks before and after the Covid-19 pandemic
 2\. | [Spotify API](https://api.spotify.com) | To get different features of the songs, such as genre and audio features, through the API
 3\. | [Spotify Dataset - Kaggle](https://www.kaggle.com/theoverman/the-spotify-hit-predictor-dataset?select=dataset-of-00s.csv) | A dataset of all the songs from the year 2000 to the year 2019
@@ -19,7 +19,7 @@ Sno. | Source | Data and Source Description
 
 ## Metadata - Spotify Dataset
 Sno. | Column Name | Description 
---- | ------------- | -----------
+:---: | :----------: | :-----------
 1\. | **danceability** | Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable
 2\. | **energy** | Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy
 3\. | **key** | The estimated overall key of the track. Integers map to pitches using standard Pitch Class notation. E.g. 0 = C, 1 = C?/D?, 2 = D, and so on. If no key was detected, the value is -1
