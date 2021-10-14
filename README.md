@@ -7,7 +7,7 @@ This project is part of the Knowledge Discovery in Databases (ITCS - 6162) cours
 Since the Covid-19 pandemic has affected people lives in many ways, one of the things that might have affected is preference in music. There are many factors that affect preference in music like danceability, intensity etc. Our aim for this project is to analyze those factors and merge this analysis with covid dataset to identify how preference in music has changed.
 
 ## Research Question
-How has Covid-19 positive cases impacted individuals preference in music across top genres in the United States, by analyzing various song metrics for the top weekly hit songs before and during the pandemic, for Spotify users.
+How has Covid-19 affected Spotify users' preference in music across top genres and different generations of music through the change in Covid-19 cases and comparing against pre-pandemic, by analyzing various song metrics from the weekly top charted songs on Spotify in the United States.
 
 ## Data and Source Description 
   Sno. | Source | Data and Source Description
