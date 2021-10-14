@@ -10,14 +10,26 @@ Since the Covid-19 pandemic has affected people lives in many ways, one of the t
 How has Covid-19 positive cases impacted individuals preference in music across top genres in the United States, by analyzing various song metrics for the top weekly hit songs before and during the pandemic, for Spotify users.
 
 ## Data and Source Description 
-Sno. | Source | Data and Source Description
-:---: | :----: | :------------------------
-1\. | [Spotify Charts](https://spotifycharts.com/regional) | To get the top charts from different regions from previous weeks before and after the Covid-19 pandemic
-2\. | [Spotify API](https://api.spotify.com) | To get different features of the songs, such as genre and audio features, through the API
-3\. | [Spotify Dataset - Kaggle](https://www.kaggle.com/theoverman/the-spotify-hit-predictor-dataset?select=dataset-of-00s.csv) | A dataset of all the songs from the year 2000 to the year 2019
-4\. | [Covid-19 Dataset](https://covid19-lake.s3.amazonaws.com/index.html) | Use the open public Covid-19 dataset hosted by AWS
+  Sno. | Source | Data and Source Description
+  :---: | :----: | :------------------------
+  1\. | [Spotify Charts](https://spotifycharts.com/regional) | To get the top charts from different regions from previous weeks before and after the Covid-19 pandemic
+  2\. | [Spotify API](https://api.spotify.com) | To get different features of the songs, such as genre and audio features, through the API
+  3\. | [Spotify Dataset - Kaggle](https://www.kaggle.com/theoverman/the-spotify-hit-predictor-dataset?select=dataset-of-00s.csv) | A dataset of all the songs from the year 2000 to the year 2019
+  4\. | [Covid-19 Dataset](https://covid19-lake.s3.amazonaws.com/index.html) | Public Covid-19 dataset hosted by AWS
 
-## Metadata - Spotify Dataset
+### Metadata - Spotify Dataset
+*Below are the columns that store different information related to the song:*
+Sno. | Column Name | Description 
+:---: | :----------: | :-----------
+1\. | **position** | the position(1-200) of the song in the specificied week
+2\. | **streams** | number of streams in current week
+3\. | **artist** | the artist of the song
+4\. | **release_date** | the year the song was released
+5\. | **genres** | the genres that the song's artist falls into
+6\. | **region** | the country that the top charts including the song belongs to
+7\. | **track** | the title of the track
+
+*Below are the columns that specify various features related to the song:*
 Sno. | Column Name | Description 
 :---: | :----------: | :-----------
 1\. | **danceability** | Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable
