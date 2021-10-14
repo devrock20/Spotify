@@ -21,20 +21,20 @@ How has Covid-19 positive cases impacted individuals preference in music across 
 *Below are the columns that store different information related to the song:*
 Sno. | Column Name | Description 
 :---: | :----------: | :-----------
-1\. | **position** | the position(1-200) of the song in the specificied week
-2\. | **streams** | number of streams in current week
-3\. | **artist** | the artist of the song
-4\. | **release_date** | the year the song was released
-5\. | **genres** | the genres that the song's artist falls into
-6\. | **region** | the country that the top charts including the song belongs to
-7\. | **track** | the title of the track
+1\. | **position** | The position(1-200) of the song in the specified week's top charts
+2\. | **streams** | The number of streams by Spotify users in the specified week's top charts
+3\. | **artist** | The name of the artist
+4\. | **release_date** | The date the album was first released
+5\. | **genres** | A list of the genres the artist is associated with. If not yet classified, the array is empty
+6\. | **region** | The country of the top charts song
+7\. | **track** | The country of the top charts song
 
 *Below are the columns that specify various features related to the song:*
 Sno. | Column Name | Description 
 :---: | :----------: | :-----------
 1\. | **danceability** | Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable
 2\. | **energy** | Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy
-3\. | **key** | The estimated overall key of the track. Integers map to pitches using standard Pitch Class notation. E.g. 0 = C, 1 = C?/D?, 2 = D, and so on. If no key was detected, the value is -1
+3\. | **key** | The estimated overall key of the track. Integers map to pitches using standard Pitch Class notation. E.g. 0 = C, 1 = C/D, 2 = D, and so on. If no key was detected, the value is -1
 4\. | **loudness** | The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typical range between -60 and 0 db
 5\. | **mode** | Mode indicates the modality (major or minor) of a track, the type of scale from which its melodic content is derived. Major is represented by 1 and minor is 0
 6\. | **speechiness** | Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks
