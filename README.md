@@ -46,6 +46,32 @@ Sno. | Column Name | Description
 
 ## CRISP-DM Model
 ### 1. Exploratory Data Analysis
+![Country Music Genere](https://github.com/devrock20/Spotify/blob/main/img/contemporary%20country.png)
+
+![](https://github.com/devrock20/Spotify/blob/main/img/electropop.png)
+
+![](https://github.com/devrock20/Spotify/blob/main/img/rap.png)
+
+Comparing impact on the listening pattern for different genres due to Covid-19 across the US:
+
+From the graphs, we can infer that song genres contemporary country and pop were having more active listeners when Covid-19 was at its peak.
+
+Song genres like rap, hip hop, southern hip hop, trap, dance pop saw a huge decrease in their daily listeners count during the peak season of Covid-19.
+
+Comparing impact on the listening pattern for different genres due to various events during Covid-19 impact across the US:
+
+To analyze the impact of various events during Covid-19, we have plotted the event markers for the following events:
+
+First Covid-19 case
+First states shutdown
+First public vaccination
+Vaccinated people can be without masks
+Comparing contemporary country pattern with the event markers we can see that this genre saw the highest number of listeners after the first public vaccination started.
+
+Another genre impacted is electropop, where the number of listeners to the song belonging to this genre started decreasing after the states started shutdown and started to increase after vaccinated people were allowed to be without masks.
+
+Similar to electropop, rap saw its lowest listeners after the state's shutdown started and the pattern became normal after vaccinated people were allowed to be without masks.
+
 
 ### 2. Data Preparation
 
