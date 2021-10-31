@@ -46,13 +46,16 @@ Sno. | Column Name | Description
 
 ## CRISP-DM Model
 ### 1. Exploratory Data Analysis
-![Country Music Genere](https://github.com/devrock20/Spotify/blob/main/img/contemporary%20country.png)
-
-![](https://github.com/devrock20/Spotify/blob/main/img/electropop.png)
-
-![](https://github.com/devrock20/Spotify/blob/main/img/rap.png)
+The Spotify and Covid-19 datasets are collected, cleaned, and engineered using the Cross-Industry Standard Process of Data Mining (CRISP-DM), yielding a significant amount of insights.
 
 Comparing impact on the listening pattern for different genres due to Covid-19 across the US:
+
+<img src=https://github.com/devrock20/Spotify/blob/main/img/contemporary%20country.png width="800px">
+
+<img src=https://github.com/devrock20/Spotify/blob/main/img/electropop.png width="800px">
+
+<img src=https://github.com/devrock20/Spotify/blob/main/img/rap.png width="800px">
+
 
 From the graphs, we can infer that song genres contemporary country and pop were having more active listeners when Covid-19 was at its peak.
 
