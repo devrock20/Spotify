@@ -9,9 +9,6 @@ Since the Covid-19 pandemic has affected people's lives in many ways, one of the
 ## Research Question
 How has Covid-19 affected Spotify users' preference in music across top genres and different generations of music through the change in Covid-19 cases and comparing against pre-pandemic, by analyzing various song metrics from the weekly top charted songs on Spotify in the United States.
 
-Link to the project - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PMafQ5ZpfnWtDsecz5nmwbtjzmcIW6QS?usp=sharing])
-
-
 ## Data and Source Description 
   Sno. | Source | Data and Source Description
   :---: | :----: | :------------------------
@@ -47,6 +44,12 @@ Sno. | Column Name | Description
 10\. | **valence** | A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry)
 11\. | **tempo** | The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration
 
+## CRISP-DM Model
+### 1. Exploratory Data Analysis
+
+### 2. Data Preparation
+
+### 3. Modeling
 
 ## Future Work:
 1. We can extend the work to "How different phases of lockdown affected the preference in music".
