@@ -9,7 +9,7 @@ Since the Covid-19 pandemic has affected people's lives in many ways, one of the
 ## Research Question
 How has Covid-19 affected Spotify users' preference in music across top genres and different generations of music through the change in Covid-19 cases and comparing against pre-pandemic, by analyzing various song metrics from the weekly top charted songs on Spotify in the United States.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PMafQ5ZpfnWtDsecz5nmwbtjzmcIW6QS?usp=sharing])
+Link to the project - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PMafQ5ZpfnWtDsecz5nmwbtjzmcIW6QS?usp=sharing])
 
 
 ## Data and Source Description 
