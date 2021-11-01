@@ -108,11 +108,11 @@ To analyze the impact of various events during Covid-19, we have plotted the eve
 
 * Observed that the `acoustic` feature increases over time every year, but users preferred songs having increase in `acoustic` factor with the increases in new Covid-19 cases.
 
-<img src=https://github.com/devrock20/Spotify/blob/main/img/contemporary%20country.png width="800px">
+<img src=https://github.com/devrock20/Spotify/blob/main/img/accoustics.png width="800px">
 
 * There isn't much of a difference between before and after Covid-19, however with the first Covid-19 case, we noticed that users started listening to the songs having more `liveness` feature.
 
-<img src=https://github.com/devrock20/Spotify/blob/main/img/contemporary%20country.png width="800px">
+<img src=https://github.com/devrock20/Spotify/blob/main/img/liveness.png width="800px">
 
 * With the rise and fall of Covid-19 cases, the `valance` song feature has no significant impact on listening preference of users.
 
