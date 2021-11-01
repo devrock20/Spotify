@@ -101,11 +101,11 @@ To analyze the impact of various events during Covid-19, we have plotted the eve
 
 <img src=https://github.com/devrock20/Spotify/blob/main/img/danceability.png width="800px">
 
-* In the case of the `key` audio feature, it was high in the beginning of Covid-19, but with the spike in Covid-19, the `key` audio feature has drastically decreased.
+* In the case of the `key` audio feature, it was high at the beginning of Covid-19, but with the spike in Covid-19, the `key` audio feature has drastically decreased.
 
 <img src=https://github.com/devrock20/Spotify/blob/main/img/key.png width="800px">
 
-* When comparing the song's `energy` and `loudness` feature with Covid-19 cases, we found that before Covid-19, there was a decrease in the month of December every year (slightly around Christmas) and an increase after that. This means that songs having high `energy` and `loudness` feature were less preferred by the users. The similar pattern has been noticed after Covid-19, with a slight decrease in the month of December.
+* When comparing the song's `energy` and `loudness` feature with Covid-19 cases, we found that before Covid-19, there was a decrease in the month of December every year (slightly around Christmas) and an increase after that. This means that songs having high `energy` and `loudness` feature were less preferred by the users. A similar pattern has been noticed after Covid-19, with a slight decrease in the month of December.
 
 <img src=https://github.com/devrock20/Spotify/blob/main/img/energy.png width="800px">
 <img src=https://github.com/devrock20/Spotify/blob/main/img/loudness.png width="800px">
@@ -114,15 +114,15 @@ To analyze the impact of various events during Covid-19, we have plotted the eve
 
 <img src=https://github.com/devrock20/Spotify/blob/main/img/speechiness.png width="800px">
 
-* Observed that the `acoustic` feature increases over time every year, but users preferred songs having increase in `acoustic` factor with the increases in new Covid-19 cases.
+* Observed that the `acoustic` feature increases overtime every year, but users preferred songs having an increase in `acoustic` factor with the increases in new Covid-19 cases.
 
 <img src=https://github.com/devrock20/Spotify/blob/main/img/acousticness.png width="800px">
 
-* There isn't much of a difference between before and after Covid-19, however with the first Covid-19 case, we noticed that users started listening to the songs having more `liveness` feature.
+* For `liveness` feature, there isn't much of a difference between before and after Covid-19, however with the first Covid-19 case, we noticed that users started listening to the songs having more `liveness` value.
 
 <img src=https://github.com/devrock20/Spotify/blob/main/img/liveness.png width="800px">
 
-* With the rise and fall of Covid-19 cases, the `valance` song feature has no significant impact on listening preference of users.
+* With the rise and fall of Covid-19 cases, the `valance` song feature has no significant impact on the listening preference of users.
 
 <img src=https://github.com/devrock20/Spotify/blob/main/img/valence.png width="800px">
 
