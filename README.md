@@ -48,32 +48,45 @@ Sno. | Column Name | Description
 ### 1. Exploratory Data Analysis
 The Spotify and Covid-19 datasets are collected, cleaned, and engineered using the Cross-Industry Standard Process of Data Mining (CRISP-DM), yielding a significant amount of insights.
 
-Comparing impact on the listening pattern for different genres due to Covid-19 across the US:
+**Comparing impact on the listening pattern for different genres due to Covid-19 across the US:**
 
+* From the below graphs, we can infer that song genres `contemporary country` and `pop` were having more active listeners when Covid-19 was at its peak.
 <img src=https://github.com/devrock20/Spotify/blob/main/img/contemporary%20country.png width="800px">
+<img src=https://github.com/devrock20/Spotify/blob/main/img/pop.png width="800px">
 
-<img src=https://github.com/devrock20/Spotify/blob/main/img/electropop.png width="800px">
+* Song genres like `rap`, `hip hop`, `southern hip hop`, `trap` and `dance pop` saw a huge decrease in their daily listeners count during the peak season of Covid-19.
 
 <img src=https://github.com/devrock20/Spotify/blob/main/img/rap.png width="800px">
+<img src=https://github.com/devrock20/Spotify/blob/main/img/hip-hop.png width="800px">
+<img src=https://github.com/devrock20/Spotify/blob/main/img/southern-hip-hop.png width="800px">
+<img src=https://github.com/devrock20/Spotify/blob/main/img/trap.png width="800px">
+<img src=https://github.com/devrock20/Spotify/blob/main/img/dance-pop.png width="800px">
 
 
-From the graphs, we can infer that song genres contemporary country and pop were having more active listeners when Covid-19 was at its peak.
 
-Song genres like rap, hip hop, southern hip hop, trap, dance pop saw a huge decrease in their daily listeners count during the peak season of Covid-19.
 
-Comparing impact on the listening pattern for different genres due to various events during Covid-19 impact across the US:
+**Comparing impact on the listening pattern for different genres due to various events during Covid-19 impact across the US:**
 
 To analyze the impact of various events during Covid-19, we have plotted the event markers for the following events:
 
-First Covid-19 case
-First states shutdown
-First public vaccination
-Vaccinated people can be without masks
-Comparing contemporary country pattern with the event markers we can see that this genre saw the highest number of listeners after the first public vaccination started.
+1. First Covid-19 case
+2. First states shutdown
+3. First public vaccination
+4. Vaccinated people can be without masks
 
-Another genre impacted is electropop, where the number of listeners to the song belonging to this genre started decreasing after the states started shutdown and started to increase after vaccinated people were allowed to be without masks.
 
-Similar to electropop, rap saw its lowest listeners after the state's shutdown started and the pattern became normal after vaccinated people were allowed to be without masks.
+* Comparing `contemporary country` pattern with the event markers we can see that this genre saw the highest number of listeners after the first public vaccination started.
+
+<img src=https://github.com/devrock20/Spotify/blob/main/img/contemporary%20country.png width="800px">
+
+* Another genre impacted is `electropop`, where the number of listeners to the song belonging to this genre started decreasing after the states started shutdown and started to increase after vaccinated people were allowed to be without masks.
+
+<img src=https://github.com/devrock20/Spotify/blob/main/img/electropop.png width="800px">
+
+* Similar to `electropop`, `rap` saw its lowest listeners after the state's shutdown started and the pattern became normal after vaccinated people were allowed to be without masks.
+<img src=https://github.com/devrock20/Spotify/blob/main/img/rap.png width="800px">
+
+
 
 
 ### 2. Data Preparation
