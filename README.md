@@ -45,7 +45,15 @@ Sno. | Column Name | Description
 11\. | **tempo** | The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration
 
 ## CRISP-DM Model
-### 1. Exploratory Data Analysis
+
+### 1. Data preparation
+
+*	We turned the `genres` column, which was a list of genres, to several binary columns for, one for each genre. Then, we transformed the genre data to count how many of each genre were in each week for the purpose of EDA.
+*	Using the audio feature columns, we took the mean of each audio feature grouped by week for the purpose of EDA. 
+*	The Spotify dataset had many broken release dates, so we used the Spotify API to update it to the correct release date. The `release date` column was also converted from YYYY-MM-DD format to YYYY format for EDA. 
+*	We changed the `country` column to `region` because it interfered with the "country" genre when we tried to make a column for it.
+
+### 2. Exploratory Data Analysis
 The Spotify and Covid-19 datasets are collected, cleaned, and engineered using the Cross-Industry Standard Process of Data Mining (CRISP-DM), yielding a significant amount of insights.
 
 **Comparing impact on the listening pattern for different genres due to Covid-19 across the US:**
@@ -118,12 +126,9 @@ To analyze the impact of various events during Covid-19, we have plotted the eve
 
 <img src=https://github.com/devrock20/Spotify/blob/main/img/valence.png width="800px">
 
-### 2. Data Preparation
-
-### 3. Modeling
 
 ### Next Steps:
-*
+* 
 *
 *
 
