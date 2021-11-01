@@ -50,9 +50,9 @@ The Spotify and Covid-19 datasets are collected, cleaned, and engineered using t
 
 **Comparing impact on the listening pattern for different genres due to Covid-19 across the US:**
 
-* From the below graphs, we can infer that song genres `contemporary country` and `pop` were having more active listeners when Covid-19 was at its peak.
+* From the below graphs, we can infer that song genres `contemporary country` and `canadain pop` were having more active listeners when Covid-19 was at its peak.
 <img src=https://github.com/devrock20/Spotify/blob/main/img/contemporary%20country.png width="800px">
-<img src=https://github.com/devrock20/Spotify/blob/main/img/pop.png width="800px">
+<img src=https://github.com/devrock20/Spotify/blob/main/img/canadain_pop.png width="800px">
 
 * Song genres like `rap`, `hip hop`, `southern hip hop`, `trap` and `dance pop` saw a huge decrease in their daily listeners count during the peak season of Covid-19.
 
