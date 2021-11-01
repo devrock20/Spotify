@@ -122,6 +122,11 @@ To analyze the impact of various events during Covid-19, we have plotted the eve
 
 ### 3. Modeling
 
+### Next Steps:
+*
+*
+*
+
 ## Future Work:
 1. We can extend the work to "How different phases of lockdown affected the preference in music".
 2. We could predict the top genres across different countries given the future scenario in terms of change in Covid-19 cases.
