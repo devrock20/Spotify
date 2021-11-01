@@ -128,9 +128,9 @@ To analyze the impact of various events during Covid-19, we have plotted the eve
 
 
 ### Next Steps:
-* 
-*
-*
+* Time series analysis.
+* Analyzing data for two different countries.
+* Research articles that provide evidence for the unexplained changes in the data.
 
 ## Future Work:
 1. We can extend the work to "How different phases of lockdown affected the preference in music".
