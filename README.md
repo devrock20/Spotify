@@ -144,5 +144,5 @@ To analyze the impact of various events during Covid-19, we have plotted the eve
 |[Satyadev Tummala](https://github.com/devrock20)| 
 |[Sourabh Pandey](https://github.com/spandey5992) |    
 |[Cody Hunt](https://github.com/chunt52) |
-|[Manaswani Polkampally](https://github.com/manaswinipolkampally)|
+|[Manaswini Polkampally](https://github.com/manaswinipolkampally)|
 
