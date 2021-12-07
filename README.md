@@ -1,7 +1,7 @@
 # Spotify
 This project is part of the Knowledge Discovery in Databases (ITCS - 6162) course from University of North Carolina at Charlotte.
 
-#### -- Project Status: [Pending]
+#### -- Project Status: [Complete]
 
 ## Introduction to Problem
 Since the Covid-19 pandemic has affected people's lives in many ways, one of the things that might have affected is the preference in music. There are many factors that affect preference in music like danceability, intensity etc. Our aim for this project is to analyze those factors and merge this analysis with a Covid-19 dataset to identify how preference in music has changed.
@@ -125,6 +125,16 @@ To analyze the impact of various events during Covid-19, we have plotted the eve
 * With the rise and fall of Covid-19 cases, the `valance` song feature has no significant impact on the listening preference of users.
 
 <img src=https://github.com/devrock20/Spotify/blob/main/img/valence.png width="800px">
+
+### 3. Machine Learning
+**FB Prophet
+**ARIMA
+
+### 4. Evaluation
+
+
+
+### 5.Conclusion
 
 
 ### Next Steps:
