@@ -127,11 +127,15 @@ To analyze the impact of various events during Covid-19, we have plotted the eve
 <img src=https://github.com/devrock20/Spotify/blob/main/img/valence.png width="800px">
 
 ### 3. Machine Learning
-##FB Prophet
-##ARIMA
+We have used Prophet an ML time series model by facebook to anyalse and forecast the spotify and covid-19 data.
+Below is a sample graph forecasted by the model for dance pop genere
+<img src=https://github.com/devrock20/Spotify/blob/main/img/fbprophetSample.png width="800px">
+
 
 ### 4. Evaluation
-
+For the Evaluation phase we compared different time series models namely ARIMA,SARIMA.
+Below is a sample Chart showing how different models compared w.r.t to RSME scores of the predicted and actual generes.
+<img src=https://github.com/devrock20/Spotify/blob/main/img/arima_prophet.png width="800px">
 
 
 ### 5. Conclusion
