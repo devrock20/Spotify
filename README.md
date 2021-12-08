@@ -51,6 +51,7 @@ Sno. | Column Name | Description
 *	Using the audio feature columns, we took the mean of each audio feature grouped by week for the purpose of EDA. 
 *	The Spotify dataset had many broken release dates, so we used the Spotify API to update it to the correct release date. The `release date` column was also converted from YYYY-MM-DD format to YYYY format for EDA. 
 *	We changed the `country` column to `region` because it interfered with the "country" genre when we tried to make a column for it.
+*	In order for the data to be used for predictive analysis, we converted the data into one row for each week containing the average audio feature for every song and the number of each genre in that week.
 
 ### 2. Exploratory Data Analysis
 The Spotify and Covid-19 datasets are collected, cleaned, and engineered using the Cross-Industry Standard Process of Data Mining (CRISP-DM), yielding a significant amount of insights.
