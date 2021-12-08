@@ -127,15 +127,18 @@ To analyze the impact of various events during Covid-19, we have plotted the eve
 <img src=https://github.com/devrock20/Spotify/blob/main/img/valence.png width="800px">
 
 ### 3. Machine Learning
-We have used Prophet an ML time series model by facebook to anyalse and forecast the spotify and covid-19 data.
-Below is a sample graph forecasted by the model for dance pop genere
-<img src=https://github.com/devrock20/Spotify/blob/main/img/fbprophetSample.png width="800px">
+We have compared ARIMA, SARIMAX and FB Prophet model to forecast the data and evaluate each models performance.
+Below is a short description of the models we used.
+* Train/Test – The dataset was split into training and testing datasets with the testing dataset being the latest 20 weeks in the dataset and the training dataset being everything before those 20 weeks.
+* Prophet – Prophet is open-source software released by Facebook. It is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects.
+* ARIMA – (Auto regressive integrated moving average model) is a time series model which is used for forecasting and analyzing time series data. It is based on the idea that previous values has some intrinsic information that can be used for predicting future values. It has three components namely AR - Autoregression, I - Integrated and MA-Moving Average.
+* SARIMAX (Seasonal Auto Regressive Integrated Moving Averages with Exogenous Factors) - A seasonal ARIMA model is formed by including additional seasonal terms in the ARIMA models. The Covid-19 cases has been used as Exogenous factor  
 
 
 ### 4. Evaluation
-For the Evaluation phase we compared different time series models namely ARIMA,SARIMA.
-Below is a sample Chart showing how different models compared w.r.t to RSME scores of the predicted and actual generes.
-<img src=https://github.com/devrock20/Spotify/blob/main/img/arima_prophet.png width="800px">
+* For evaluation, we are using the RMSE (Root Mean Square Error) as our evaluation metric to determine the performance of a model. For our baseline model, we will use the mean of the values in the training dataset as our prediction for the test dataset.
+* After evaluating the three models against the baseline, we have plotted the results below:
+
 
 
 ### 5. Conclusion
