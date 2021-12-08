@@ -1,7 +1,7 @@
-# Spotify
+# Spotify and Covid-19 Analysis 
 This project is part of the Knowledge Discovery in Databases (ITCS - 6162) course from University of North Carolina at Charlotte.
 
-#### -- Project Status: [Complete]
+#### -- Project Status: [Completed]
 
 ## Introduction to Problem
 Since the Covid-19 pandemic has affected people's lives in many ways, one of the things that might have affected is the preference in music. There are many factors that affect preference in music like danceability, intensity etc. Our aim for this project is to analyze those factors and merge this analysis with a Covid-19 dataset to identify how preference in music has changed.
