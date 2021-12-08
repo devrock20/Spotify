@@ -138,9 +138,16 @@ Below is a short description of the models we used.
 ### 4. Evaluation
 * For evaluation, we are using the RMSE (Root Mean Square Error) as our evaluation metric to determine the performance of a model. For our baseline model, we will use the mean of the values in the training dataset as our prediction for the test dataset.
 * After evaluating the three models against the baseline, we have plotted the results below:
+
 <img src=https://github.com/devrock20/Spotify_and_Covid19/blob/main/img/AudioFeatures.jpg width="800px">
 
+The x-axis is the percentage of the sum of each model’s RMSE and the y-axis is the name of each audio feature. The data labels contain the RMSE values with the highest performing RMSE bolded. As you can see in the graph, Arima and Facebook Prophet had the best overall predictions for audio features, while the baseline and SARIMAX models had the least accurate predictions for audio features. We were unable to find a model that beats the baseline for acousticness. For all other features, we are able to make more accurate predictions using our models.
+
 <img src=https://github.com/devrock20/Spotify_and_Covid19/blob/main/img/Genres.jpg width="800px">
+
+From the graph, we can see that ARIMA model is best performing model. SARIMAX performs the best on trap and dance pop. Facebook Prophet was unable to perform effectively on any genre. Our models were unable to perform better than the baseline model for the contemporary country and Canadian pop genres. Otherwise, ARIMA performs better than every model on all of the other categories.
+
+* Overall, we can say that our models’ performed very well on most of the features and there is room to improve further with more tuning. 
 
 ### 5. Conclusion
 
