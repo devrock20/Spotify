@@ -150,11 +150,11 @@ From the graph, we can see that ARIMA model is best performing model. SARIMAX pe
 * Overall, we can say that our models’ performed very well on most of the features and there is room to improve further with more tuning. 
 
 ### 5. Conclusion
-
-## Future Work:
-1. We can extend the work to "How different phases of lockdown affected the preference in music".
-2. We could predict the top genres across different countries given the future scenario in terms of change in Covid-19 cases.
-3. Identifying the preference in music after Covid-19 is over and comparing to the preference in music before and during Covid-19.
+*	In order to use the data from Spotify, we had to update incorrect release dates and split the genres column, which was a list of genres, into a column for each genre.
+*	We used RMSE as our evaluation metric to compare the three models (ARIMA, SARIMAX, and Prophet). We observed that different models performed better on different types of features. For example, Facebook prophet performed way better on audio features than genres while ARIMA performed the best on genres. With the impressive results that we received for these models; it is an effective way to predict the future of music preference. 
+*	In future works, we would like to try new models, spend more time on tuning the models we currently have, and extend our analysis on countries other than the United States.
+*	Overall, this project helped us learn how we can manipulate timeseries data for exploratory analysis and forecasting using models like Facebook Prophet, ARIMA, and SARIMAX. These models can help music producers determine what genres of songs to pursue and when to release a particular song to maximize its popularity with Spotify listeners. 
+*	For individuals who want to use our project they can clone the GitHub repo and run the notebook from the src folder.
 
 ## Contributing Project Members
 
