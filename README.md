@@ -138,8 +138,9 @@ Below is a short description of the models we used.
 ### 4. Evaluation
 * For evaluation, we are using the RMSE (Root Mean Square Error) as our evaluation metric to determine the performance of a model. For our baseline model, we will use the mean of the values in the training dataset as our prediction for the test dataset.
 * After evaluating the three models against the baseline, we have plotted the results below:
+<img src=https://github.com/devrock20/Spotify_and_Covid19/blob/main/img/AudioFeatures.jpg width="800px">
 
-
+<img src=https://github.com/devrock20/Spotify_and_Covid19/blob/main/img/Genres.jpg width="800px">
 
 ### 5. Conclusion
 
