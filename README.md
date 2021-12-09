@@ -147,7 +147,7 @@ In the above graph, the x-axis is the percentage of the sum of each model’s RM
 
 From the above graph, we can see that ARIMA model is the best performing model. SARIMAX performs the best on trap and dance pop. Facebook Prophet was unable to perform effectively on any genre. Our models were unable to perform better than the baseline model for the contemporary country and Canadian pop genres. Otherwise, ARIMA performs better than every model on all of the other categories.
 
-* Overall, we can say that our models’ performed very well on most of the features and there is room to improve further with more tuning. 
+Overall, we can say that our models’ performed very well on most of the features and there is room to improve further with more tuning. 
 
 ### 5. Conclusion
 *	In order to use the data from Spotify, we had to update incorrect release dates and split the genres column, which was a list of genres, into a column for each genre.
