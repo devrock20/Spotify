@@ -127,12 +127,12 @@ To analyze the impact of various events during Covid-19, we have plotted the eve
 <img src=https://github.com/devrock20/Spotify/blob/main/img/valence.png width="800px">
 
 ### 3. Machine Learning
-We have compared ARIMA, SARIMAX and FB Prophet model to forecast the data and evaluate each models performance.
+We have compared ARIMA, SARIMAX and FB Prophet models to forecast the data and evaluate each model's performance.
 Below is a short description of the models we used.
 * Train/Test – The dataset was split into training and testing datasets with the testing dataset being the latest 20 weeks in the dataset and the training dataset being everything before those 20 weeks.
 * Prophet – Prophet is open-source software released by Facebook. It is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects.
-* ARIMA – (Auto regressive integrated moving average model) is a time series model which is used for forecasting and analyzing time series data. It is based on the idea that previous values has some intrinsic information that can be used for predicting future values. It has three components namely AR - Autoregression, I - Integrated and MA-Moving Average.
-* SARIMAX (Seasonal Auto Regressive Integrated Moving Averages with Exogenous Factors) - A seasonal ARIMA model is formed by including additional seasonal terms in the ARIMA models. The Covid-19 cases has been used as Exogenous factor  
+* ARIMA – (Auto regressive integrated moving average model) is a time series model which is used for forecasting and analyzing time series data. It is based on the idea that previous values have some intrinsic information that can be used for predicting future values. It has three components namely AR-Autoregression, I-Integrated and MA-Moving Average.
+* SARIMAX (Seasonal Auto Regressive Integrated Moving Averages with Exogenous Factors) - A seasonal ARIMA model is formed by including additional seasonal terms in the ARIMA models. The Covid-19 features have been used as the Exogenous factor for the model.
 
 
 ### 4. Evaluation
@@ -145,7 +145,7 @@ The x-axis is the percentage of the sum of each model’s RMSE and the y-axis is
 
 <img src=https://github.com/devrock20/Spotify_and_Covid19/blob/main/img/Genres.jpg width="800px">
 
-From the graph, we can see that ARIMA model is best performing model. SARIMAX performs the best on trap and dance pop. Facebook Prophet was unable to perform effectively on any genre. Our models were unable to perform better than the baseline model for the contemporary country and Canadian pop genres. Otherwise, ARIMA performs better than every model on all of the other categories.
+From the graph, we can see that ARIMA model is the best performing model. SARIMAX performs the best on trap and dance pop. Facebook Prophet was unable to perform effectively on any genre. Our models were unable to perform better than the baseline model for the contemporary country and Canadian pop genres. Otherwise, ARIMA performs better than every model on all of the other categories.
 
 * Overall, we can say that our models’ performed very well on most of the features and there is room to improve further with more tuning. 
 
