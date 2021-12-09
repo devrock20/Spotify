@@ -1,5 +1,4 @@
-<h1><a href="https://drive.google.com/drive/folders/1E07Y066qH61iEbtJkKDMp4b7blSVekWI?usp=sharing">Dataset repo </a></h1>
-:Button label=Dataset Dump, url=https://drive.google.com/drive/folders/1E07Y066qH61iEbtJkKDMp4b7blSVekWI?usp=sharing
+## <a href="https://drive.google.com/drive/folders/1E07Y066qH61iEbtJkKDMp4b7blSVekWI?usp=sharing"><img src="https://img.icons8.com/windows/32/000000/download-from-cloud.png"/> Dataset</a>
  
 ## Description of the Dataset Files:
 
@@ -8,3 +7,4 @@
 * `spotify_charts_dataset.csv`: Spotify charts dataset.
 * `owid-covid-data.csv`: Covid-19 Dataset.
 * `spotify_genre.feather`: Spotify dataset grouped by genres and week charted with the count of songs falling under each genre by week charted.
+
